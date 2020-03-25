@@ -1,12 +1,12 @@
 <html>
 <head>
-<meta http-equiv="Content-Security-Policy" content="script-src nonce-ZGF0YS1hbmFseXNpcw==;">
+<meta http-equiv="Content-Security-Policy" content="script-src unsafe-inline">
 </head>
 <body>
 埋め込みテスト<br>
 <!-- 埋め込みコード　ここから -->
-<script type='text/javascript' src='https://www.smea-data-analysis.go.jp/javascripts/api/viz_v1.js' nonce='ZGF0YS1hbmFseXNpcw=='></script>
-<script type="text/javascript" nonce="ZGF0YS1hbmFseXNpcw==">
+<script type='text/javascript' src='https://www.smea-data-analysis.go.jp/javascripts/api/viz_v1.js'></script>
+<script type="text/javascript">
 document.cookie = 'electronic_application_id=15';
 var getDevice = (function(){
     var ua = navigator.userAgent;
@@ -34,7 +34,7 @@ if( getDevice == 'sp' ){
 <param name='toolbar' value='no' />
 <param name='showAppBanner' value='false' />
 <param name='filter' value='iframeSizedToWindow=true' />
-<script type="text/javascript" nonce="ZGF0YS1hbmFseXNpcw==">
+<script type="text/javascript">
 var cookies = document.cookie; 
 var cookiesArray = cookies.split(';'); 
 for(var c of cookiesArray){ 
