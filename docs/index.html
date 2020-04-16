@@ -39,7 +39,7 @@ var cookies = document.cookie;
 var cookiesArray = cookies.split(';'); 
 for(var c of cookiesArray){ 
     var cArray = c.split('='); 
-    if( cArray[0] == 'electronic_application_id'){ 
+    if( cArray[0].indexOf('electronic_application_id') !== -1){ 
         document.write('<param name="filter" value="electronic_id=' + cArray[1] + '" />');
     }
 }
