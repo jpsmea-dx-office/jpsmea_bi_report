@@ -8,7 +8,7 @@
 <form name="form_id">
 電子申請ID：<input type="text" name="your_id">　<input type="button" value="登録" onClick="set_cookie()">
 </form>
-<script type="text/javascript"
+<script type="text/javascript">
 function set_cookie(){
     var id = document.form_id.your_id.value;
     document.cookie = 'electronic_application_id='+ id +';';
